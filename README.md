@@ -9,7 +9,7 @@
 
 **Una aplicación web de apoyo emocional impulsada por IA.**
 
-[🚀 Demo en vivo](https://boorjanunezz.github.io/MentalHealth-AI/) · [✨ Funcionalidades](#-funcionalidades) · [⚙️ Instalación](#️-instalación)
+[🚀 Demo en vivo](https://mental-health-1ie0htezs-boorjanunezzs-projects.vercel.app/) · [✨ Funcionalidades](#-funcionalidades) · [⚙️ Instalación](#️-instalación)
 
 </div>
 
