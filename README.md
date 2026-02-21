@@ -9,7 +9,7 @@
 
 **Una aplicación web de apoyo emocional impulsada por IA.**
 
-[🚀 Demo en vivo](#) · [✨ Funcionalidades](#-funcionalidades) · [⚙️ Instalación](#️-instalación)
+[🚀 Demo en vivo](https://boorjanunezz.github.io/MentalHealth-AI/) · [✨ Funcionalidades](#-funcionalidades) · [⚙️ Instalación](#️-instalación)
 
 </div>
 
@@ -17,16 +17,16 @@
 
 ## 💡 Por qué hice esto
 
-Quería construir algo que tuviese un impacto real, no solo otro CRUD. La salud mental es un tema que me parece importante y subrepresentado en el mundo tech. Este proyecto mezcla dos cosas que me interesan: las interfaces de usuario cuidadas y los modelos de lenguaje grandes.
+Quería construir algo con impacto real, no solo otro CRUD. La salud mental me parece un tema importante y poco representado en el mundo tech. Este proyecto une dos cosas que me interesan: las interfaces de usuario bien cuidadas y los modelos de lenguaje grandes.
 
-Además, quería explorar cómo integrar la API de HuggingFace Inference con una SPA en React, manejar el historial de conversación de forma local y construir una experiencia que se sintiese humana y no robótica.
+Además, quería explorar cómo integrar la API de HuggingFace Inference con una SPA en React, gestionar el historial de conversación en el cliente y construir una experiencia que se sintiera cercana, no robótica.
 
 ---
 
 ## ✨ Funcionalidades
 
 ### 💬 Chat con IA
-- Conversación empática con **Qwen 2.5 72B** via HuggingFace Inference API
+- Conversación empática con **Qwen 2.5 72B** a través de la HuggingFace Inference API
 - Prompt de sistema orientado a técnicas de TCC y mindfulness
 - Detección de crisis con recursos de emergencia (024, 112)
 - Historial de conversación en memoria durante la sesión
@@ -36,13 +36,13 @@ Además, quería explorar cómo integrar la API de HuggingFace Inference con una
 - Contador de ciclos para hacer seguimiento de la práctica
 
 ### 😊 Registro de Estado de Ánimo
-- Check-in diario basado en emojis
-- Persistencia en `localStorage` — los datos se quedan en tu dispositivo
+- Registro diario basado en emojis
+- Persistencia en `localStorage` — los datos nunca salen de tu dispositivo
 - Gráfico visual de la evolución del ánimo
 
 ### 🆘 Recursos de Crisis
 - Líneas de atención a la conducta suicida (España y Europa)
-- Links a organizaciones de salud mental
+- Enlaces a organizaciones de salud mental
 
 ---
 
@@ -61,7 +61,7 @@ npm install
 npm run dev
 ```
 
-Abre `http://localhost:5173` e introduce tu token de HuggingFace cuando te lo pida la app.
+Abre `http://localhost:5173` e introduce tu token de HuggingFace cuando te lo pida la aplicación.
 
 ---
 
@@ -70,11 +70,11 @@ Abre `http://localhost:5173` e introduce tu token de HuggingFace cuando te lo pi
 | Tecnología | Para qué la usé |
 |---|---|
 | [React 19](https://react.dev) | Framework de UI |
-| [Vite 6](https://vite.dev) | Build tool y dev server |
+| [Vite 6](https://vite.dev) | Build tool y servidor de desarrollo |
 | [HuggingFace Inference API](https://huggingface.co/docs/api-inference) | Modelo de lenguaje (Qwen 2.5 72B) |
 | [Framer Motion](https://www.framer.com/motion/) | Animaciones y transiciones |
 | [Lucide React](https://lucide.dev) | Iconos |
-| [React Router v7](https://reactrouter.com) | Enrutado client-side |
+| [React Router v7](https://reactrouter.com) | Enrutado en el cliente |
 
 ---
 
@@ -106,12 +106,12 @@ src/
 
 ## 🔒 Privacidad
 
-- Tu token de HuggingFace se guarda solo en el `localStorage` del navegador
-- Las conversaciones se procesan en la API de HuggingFace — no en ningún servidor propio
-- Los datos de seguimiento de ánimo se quedan en tu dispositivo
+- El token de HuggingFace se guarda únicamente en el `localStorage` del navegador
+- Las conversaciones se procesan a través de la API de HuggingFace — sin servidores propios
+- Los datos de seguimiento de ánimo permanecen en tu dispositivo
 
 ---
 
 ## 📄 Licencia
 
-MIT — úsalo, modifícalo y compártelo libremente.
+[MIT License](LICENSE) — Copyright © 2026 Borja Nuñez
