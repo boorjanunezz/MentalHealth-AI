@@ -1,0 +1,201 @@
+/* ═══════════════════════════════════
+   Resources Page
+   ═══════════════════════════════════ */
+.resources {
+    padding-top: 80px;
+}
+
+.resources__header {
+    text-align: center;
+    padding: 60px 24px 40px;
+}
+
+.resources__header h1 {
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin-bottom: 12px;
+}
+
+.resources__header p {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+}
+
+/* Sections */
+.resources__section {
+    padding: 40px 24px;
+}
+
+.resources__section h2 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+}
+
+.resources__section h2 svg {
+    color: var(--primary-light);
+}
+
+.resources__section-desc {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    margin-bottom: 24px;
+    max-width: 600px;
+}
+
+/* Breathing Card */
+.resources__breathing-card {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Tips Grid */
+.resources__tips-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+
+.resources__tip-card {
+    padding: 28px 24px;
+}
+
+.resources__tip-icon {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 217, 166, 0.12);
+    border-radius: var(--radius-md);
+    color: var(--accent);
+    margin-bottom: 16px;
+}
+
+.resources__tip-card h3 {
+    font-size: 1.05rem;
+    margin-bottom: 8px;
+}
+
+.resources__tip-card p {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+/* Crisis Grid */
+.resources__crisis-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.resources__crisis-card {
+    padding: 24px;
+    border-left: 3px solid var(--primary);
+}
+
+.resources__crisis-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.resources__crisis-icon {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(108, 99, 255, 0.15);
+    border-radius: 50%;
+    color: var(--primary-light);
+}
+
+.resources__crisis-region {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    background: rgba(255, 255, 255, 0.05);
+    padding: 4px 10px;
+    border-radius: var(--radius-full);
+}
+
+.resources__crisis-card h3 {
+    font-size: 1rem;
+    margin-bottom: 6px;
+}
+
+.resources__crisis-contact {
+    font-family: var(--font-heading);
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--accent);
+    margin-bottom: 6px;
+}
+
+.resources__crisis-desc {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+}
+
+/* External Links */
+.resources__links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 600px;
+}
+
+.resources__link {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 18px 24px;
+    text-decoration: none;
+    color: var(--text-primary);
+}
+
+.resources__link strong {
+    min-width: 100px;
+}
+
+.resources__link span {
+    flex: 1;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.resources__link svg {
+    color: var(--text-muted);
+    flex-shrink: 0;
+}
+
+/* Footer */
+.resources__footer {
+    padding: 32px 0;
+    border-top: 1px solid var(--border);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.resources__footer p {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}
+
+@media (max-width: 768px) {
+    .resources__link {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+    }
+
+    .resources__link svg {
+        display: none;
+    }
+}

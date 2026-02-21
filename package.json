@@ -1,0 +1,24 @@
+{
+  "name": "mentalhealth-ai",
+  "private": true,
+  "version": "1.0.0",
+  "description": "AI-powered mental wellness companion built with React and the HuggingFace Inference API",
+  "author": "Borja Nuñez <boorjanunezz>",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.4",
+    "typescript": "~5.9.3",
+    "vite": "^7.3.1"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "framer-motion": "^12.34.3",
+    "lucide-react": "^0.575.0",
+    "react-router-dom": "^7.13.0"
+  }
+}
